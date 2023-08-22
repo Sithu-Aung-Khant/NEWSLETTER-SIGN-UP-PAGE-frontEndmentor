@@ -1,0 +1,132 @@
+/* FONTS */
+@font-face {
+    font-family: Roboto;
+    src: url(./assets/fonts/Roboto-Regular.ttf) format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(./assets/fonts/Roboto-Bold.ttf) format('truetype');
+    font-weight: bold;
+}
+
+/* COLORS */
+:root {
+    --Tomato: hsl(4, 100%, 67%);
+    --Dark-Slake-Grey: hsl(234, 29%, 20%);
+    --Charcoal-Grey: hsl(235, 18%, 26%);
+    --Grey: hsl(231, 7%, 60%);
+    --White: hsl(0, 0%, 100%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--Charcoal-Grey);
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    background: var(--White);
+    padding: 20px;
+    width: 55vw;
+    height: 80vh;
+    margin: auto;
+    border-radius: 10px;
+    display: flex;
+    margin-top: 5%;
+}
+
+.container {
+    width: 60%;
+    padding-right: 20px;
+    color: var(--Dark-Slake-Grey);
+}
+
+.copy {
+    padding: 10px;
+}
+
+h1 {
+    justify-content: center;
+    display: flex;
+    font-weight: bolder;
+    font-size: 45px;
+}
+
+.copy {
+    padding: 30px 0px 20px;
+}
+
+.copy .first-line {
+    padding:  15px 25px;
+    font-size: 12px;
+}
+
+.copy .check-list {
+    padding: 0 15px ;
+}
+
+.container .check-list li {
+    display: flex;
+    align-items: center;
+    padding: 5px 0;
+}
+
+.check-list li {
+    list-style: none;
+}
+
+.check-list li img {
+    padding: 0 10px 0;
+    width: 38px;
+}
+
+.check-list li p {
+    font-size: 12px;
+    padding: 0;
+}
+
+#sign-up-desktop-svg  {
+    width: 50%;
+}
+
+
+/* SUBSCRIBE SECTION */
+
+#subscribe {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 20px;
+}
+
+#subscribe input, button {
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid var(--Charcoal-Grey);
+    border-radius: 5px;
+    color: var(--Charcoal-Grey);
+}
+
+#subscribe button {
+    background: var(--Dark-Slake-Grey);
+    color: var(--White);
+}
+
+/* FOOTER */
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    color: white;
+    margin-top: 10px;
+}
+.attribution a { 
+    /* color: hsl(228, 45%, 44%);  */
+    color: var(--Tomato);
+    text-decoration: none;
+}
