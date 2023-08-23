@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  <link rel="stylesheet" href="./styles.css">
-  <script src="https://kit.fontawesome.com/0469378427.js" crossorigin="anonymous"></script>
-  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- displays site properly based on user's device -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="https://kit.fontawesome.com/0469378427.js" crossorigin="anonymous"></script>
+    <title>
+      Frontend Mentor | Newsletter sign-up form with success message
+    </title>
+  </head>
+  <body>
+
     <!-- Sign-up form start -->
-  <main> 
-    <div class="container">
-      <div class="copy">
+
+    <div class="card-1">
+      <div class="left">
         <h1>Stay updated!</h1>
-        <p class="first-line">Join 60,000+ product managers receiving monthly updates on:</p>
-        <ul class="check-list">
+        <p class="sentence">Join 60,000+ product managers receiving monthly updates on:</p>
+        <ul>
           <li>
             <img src="./assets/images/icon-list.svg" alt="icon-list">
             <p>Product discovery and building what matters</p>
@@ -29,32 +32,35 @@
             <p>And much more!</p>
           </li>
         </ul>
+        <form>
+          <label for="email">Email address</label>
+          <input type="email" id="email" placeholder="email@company.com">
+          <button type="submit">Subscribe to monthly newsletter</button>
+        </form>
       </div>
-      <div id="subscribe">
-        <h6>Email address</h6>
-        <input type="email" placeholder="email@company.com">
-        <button type="submit">Subscribe to monthly newsletter</button>
+      <div class="right">
+        <img src="./assets/images/illustration-sign-up-desktop.svg" alt="illustration-sign-up-desktop" id="sign-up-desktop-svg">
       </div>
     </div>
-    <img src="./assets/images/illustration-sign-up-desktop.svg" alt="illustration-sign-up-desktop" id="sign-up-desktop-svg"> 
-  </main>
-  <footer class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener">Frontend Mentor</a>. 
-    Coded by <a href="#">sithuthedev</a>.
-  </footer>
 
-  <!-- Sign-up form end -->
+    <!-- Sign-up form end -->
 
-  <!-- Success message start -->
+    <!-- Success message start -->
 
-  <!-- Thanks for subscribing!
+    <div class="card-2 hide">
+      <h1>Thanks for subscribing!</h1>
+      <p>A confirmation email has been sent to ash@loremcompany.com. 
+        Please open it and click the button inside to confirm your subscription.
+      </p>
+      <button type="submit">Dismiss message</button> 
+    </div>
 
-  A confirmation email has been sent to ash@loremcompany.com. 
-  Please open it and click the button inside to confirm your subscription.
+    <!-- Success message end -->
 
-  Dismiss message -->
+    <footer class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener">Frontend Mentor</a>. 
+      Coded by <a href="#">sithuthedev</a>.
+    </footer>
 
-  <!-- Success message end -->
-
-</body>
+  </body>
 </html>
