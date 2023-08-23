@@ -38,19 +38,18 @@ body {
 
 .card-1 {
     display: flex;
-    width: 800px;
+    width: 750px;
     padding: 30px;
     border-radius: 30px;
     background: var(--White);
 }
 .left {
     width: 60%;
-    /* margin-right: 30px; */
     padding: 0 30px 0 20px;
 }
 .left .sentence {
     padding: 18px 0;
-    font-size: 15px;
+    font-size: 14px;
     color: var(--Dark-Slake-Grey);
     text-shadow: 0.5px 0px 0px rgba(0, 0, 0, 0.3);
 }
@@ -72,7 +71,7 @@ li {
     display: flex;
 }
 li p {
-    font-size: 15px;
+    font-size: 14px;
     padding: 7px 10px;
     color: var(--Dark-Slake-Grey);
     text-shadow: 0.5px 0px 0px rgba(0, 0, 0, 0.3);
@@ -81,8 +80,8 @@ li p {
 form {
     display: flex;
     flex-direction: column;
-    width: 340px;
-    margin: 25px 0;
+    width: 320px;
+    margin: 25px 0 0;
 }
 label {
     margin-bottom: 10px;
@@ -116,7 +115,7 @@ button:hover {
 h1 {
     font-weight: bold;
     font-size: 50px;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 .hide {
     display: none;
