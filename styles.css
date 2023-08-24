@@ -35,7 +35,7 @@ body {
     align-items: center;
     flex-direction: column; 
 }
-
+/* CARD-1 STYLING */
 .card-1 {
     display: flex;
     width: 750px;
@@ -112,7 +112,7 @@ button:hover {
     background: var(--Charcoal-Grey);
     transition: all 1s;
 }
-h1 {
+.card-1 h1 {
     font-weight: bold;
     font-size: 50px;
     margin-top: 30px;
@@ -120,6 +120,30 @@ h1 {
 .hide {
     display: none;
 }
+/* CARD-2 STYLING */
+
+.card-2 {
+    background: var(--White);
+    width: 400px;
+    padding: 40px;
+    border-radius: 30px;
+}
+.card-2 img {
+    width: 50px;
+}
+.card-2 h1 {
+    font-size: 45px;
+    margin-top: 15px;
+}
+.card-2 p {
+    font-size: 14px;
+    padding: 15px 0;
+    text-shadow: 0.5px 0px 0px rgba(0, 0, 0, 0.3);
+}
+.card-2 button {
+    width: 100%;
+}
+
 /* FOOTER */
 .attribution { 
     font-size: 12px; 
