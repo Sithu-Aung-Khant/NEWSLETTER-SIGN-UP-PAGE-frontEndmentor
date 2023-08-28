@@ -32,13 +32,13 @@
             <p>And much more!</p>
           </li>
         </ul>
-        <form>
+        <form action="#">
           <label for="email">
             <p>Email address</p>
             <p id="invalid-email" class="invalid-email">Valid email required</p>
           </label>
-          <input type="email" id="email" placeholder="email@company.com">
-          <button type="submit">Subscribe to monthly newsletter</button>
+          <input type="email" class="" name="email" id="email-input" placeholder="email@company.com">
+          <button type="submit" id="submit">Subscribe to monthly newsletter</button>
         </form>
       </div>
       <div class="right">
@@ -50,13 +50,13 @@
 
     <!-- Success message start -->
 
-    <div class="card-2 hide">
+    <div id="confirm-message" class="card-2 hide">
       <img src="./assets/images/icon-success.svg" alt="icon-success">
       <h1>Thanks for subscribing!</h1>
-      <p>A confirmation email has been sent to <strong>ash@loremcompany.com.</strong>
+      <p>A confirmation email has been sent to <strong id="valid-email">email@company.com</strong>.
         Please open it and click the button inside to confirm your subscription.
       </p>
-      <button type="submit">Dismiss message</button> 
+      <button id="dismiss-message" type="submit">Dismiss message</button> 
     </div>
 
     <!-- Success message end -->

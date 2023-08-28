@@ -88,6 +88,15 @@ label {
     color: var(--Dark-Slake-Grey);
     font-size: small;
     font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+}
+label .invalid-email {
+    color: var(--Tomato);
+    display: none;
+}
+label .invalid-email.error {
+    display: block;
 }
 input {
     padding: 16px 20px;
@@ -95,6 +104,10 @@ input {
     border-radius: 5px;
     outline: none;
     border: 1px solid var(--Grey);
+}
+input.error {
+    border: 1px solid var(--Tomato);
+    background-color: rgb(255, 98, 87, 0.2);
 }
 button {
     font-family: inherit;
@@ -109,7 +122,7 @@ button {
     cursor: pointer;
 }
 button:hover {
-    background: var(--Charcoal-Grey);
+    background: linear-gradient(127deg, rgba(255, 63, 124, 1) 40%, rgba(255, 154, 34, 1) 70%);
     transition: all 1s;
 }
 .card-1 h1 {
