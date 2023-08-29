@@ -32,16 +32,16 @@ In this challenge I had to build a newsletter sign-up page that users can:
 
 ### Screenshot
 
-#### Sign-Up Page
+#### Sign-Up Form
 ![](./assets/screenshots/1.png)
 
-#### Success message
+#### Success Message
 ![](./assets/screenshots/4.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/newsletter-signup-form-challenge-vonmhJ4xvg)
+- Live Site URL: [Add live site URL here](https://newsletter-signup-page-by-sithuthedev.netlify.app/)
 
 ## My process
 
