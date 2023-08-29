@@ -40,8 +40,8 @@ In this challenge I had to build a newsletter sign-up page that users can:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/newsletter-signup-form-challenge-vonmhJ4xvg)
-- Live Site URL: [Add live site URL here](https://newsletter-signup-page-by-sithuthedev.netlify.app/)
+- Solution URL: [Click Here](https://www.frontendmentor.io/solutions/newsletter-signup-form-challenge-vonmhJ4xvg)
+- Live Site URL: [Click Here](https://newsletter-signup-page-by-sithuthedev.netlify.app/)
 
 ## My process
 
