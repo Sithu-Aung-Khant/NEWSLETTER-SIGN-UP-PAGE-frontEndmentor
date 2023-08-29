@@ -34,10 +34,7 @@ In this challenge I had to build a newsletter sign-up page that users can:
 
 #### Sign-Up Page
 ![](./assets/screenshots/1.png)
-#### When you don't enter nothing
-![](./assets/screenshots/2.png)
-#### When your email isn't valid format
-![](./assets/screenshots/3.png)
+
 #### Success message
 ![](./assets/screenshots/4.png)
 
