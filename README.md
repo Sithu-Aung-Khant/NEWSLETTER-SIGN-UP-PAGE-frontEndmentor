@@ -49,7 +49,7 @@ In this challenge I had to build a newsletter sign-up page that users can:
 - Flexbox
 - JavaScript
 
-### What I learned from solving this challenge
+### What I learned
 
 - While working on the project, I faced a unique challenge—getting the text boldness just right. The available options were 500 bold weight and 600 bold weight, but my preferred level of boldness fell in between.
 - Opting for 500 made the text too light, while 600 made it overly bold. Searching for a fix, I discovered an ingenious solution with ChatGPT. Instead of changing the font weight, I used a text-shadow effect. This simple trick allowed me to achieve the perfect boldness for the text, meeting my requirements exactly.
